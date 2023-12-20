@@ -1,0 +1,12 @@
+.bg-box {
+  box-sizing: border-box;
+  width: 1000px;
+  height: 1000px;
+  margin: 0 auto;
+  background-color: green;
+  background-image: url("../images/natur.jpg"), url("../images/gras.png"),
+    url("../images/hedgehog.webp"),url(../images/lamp.png),url(../images/sweet.png);
+  background-repeat: no-repeat, repeat-x,repeat-y,repeat-x,repeat-y;
+  background-position: center, bottom,left,top,right;
+  background-size: auto, 250px,50px,50px,50px;
+}
